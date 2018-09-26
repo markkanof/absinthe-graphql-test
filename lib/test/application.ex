@@ -9,7 +9,7 @@ defmodule Test.Application do
     # Define workers and child supervisors to be supervised
     children = [
       # Start the Ecto repository
-      supervisor(Test.Repo, []),
+      # supervisor(Test.Repo, []),
       # Start the endpoint when the application starts
       supervisor(TestWeb.Endpoint, []),
       # Start your own worker by calling: Test.Worker.start_link(arg1, arg2, arg3)
